@@ -1,0 +1,382 @@
+
+:root{
+    --fontcolor:#171b1d;
+    --backgroundcolor:#8dbfc5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.logo{
+  width: 60px;
+  height: 50px;
+  
+ 
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.pic{
+    position: absolute;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(218, 216, 216);
+    box-shadow: 0 1rem 1rem rgb(0, 0, 0, .1);
+    z-index: 10000000;
+}
+header #logo{
+    font-size: 3rem;
+    color: black;
+    
+}
+header #logo span{
+    color: var(--fontcolor);
+}
+
+header .navbar a{
+    font-size: 20px;
+    color: var(--fontcolor);
+    margin-left: 50px;
+    float: left;
+}
+header .navbar :hover{
+    text-decoration: underline;
+    margin-right:9px;
+    color: rgb(160, 212, 182);
+}
+.icons i{
+font-size: 2rem;
+color: var(--fontcolor);
+margin-left: 1rem;
+}
+header #menu_bars{
+    font-size: 2rem;
+    color: var(--fontcolor);
+    display: none;
+    
+}
+header .navbar.active{
+    left: 0;
+    transition: .5s;
+}
+.main-image{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+}
+.container{
+    background: url(pic\ dontist.jpg);
+    width: 100%;
+    padding-top: 8.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container .main-text{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    padding: 0 2rem;
+    text-align: center;
+}
+.container .main-text h2{
+    font-size: 40px;
+    color: var(--fontcolor);
+    padding-bottom: 1.5rem;
+}
+.container .main-text button{
+    padding: 1.5rem 3.5rem;
+    background: var(--backgroundcolor);
+    color: white;
+    border-radius: 10px;
+    border:1px solid white;
+}
+.service-section{
+    padding: 2rem 7%;
+    background: linear-gradient(#889aa0, #a8a0bd);
+    min-height: 50vh;
+}
+#ourservices{
+    color: white;
+    font-size: 30px;
+    padding: 2rem 0;
+    text-align: center;
+}
+.inner-service-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.service-box{
+    flex: 1 1 200px;
+    padding: 5rem 0;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.service-box i{
+    color: white;
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+.service-box h2{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.service-box p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+.work-section{
+    padding: 4rem 7%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+}
+.inner-work-section h2{
+    font-size: 25px;
+    padding: .5rem 0;
+}
+.scnclass{
+    padding: 0 1rem;
+}
+.myimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+.logo{
+  width: 60px;
+  height: 50px;
+  
+ 
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.pic{
+    position: absolute;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(218, 216, 216);
+    box-shadow: 0 1rem 1rem rgb(0, 0, 0, .1);
+    z-index: 10000000;
+}
+header #logo{
+    font-size: 3rem;
+    color: black;
+    
+}
+header #logo span{
+    color: var(--fontcolor);
+}
+
+header .navbar a{
+    font-size: 20px;
+    color: var(--fontcolor);
+    margin-left: 50px;
+    float: left;
+}
+header .navbar :hover{
+    text-decoration: underline;
+    margin-right:9px;
+    color: rgb(160, 212, 182);
+    font-size: 25px;
+}
+.icons i{
+font-size: 2rem;
+color: var(--fontcolor);
+margin-left: 1rem;
+}
+header #menu_bars{
+    font-size: 2rem;
+    color: var(--fontcolor);
+    display: none;
+    
+}
+header .navbar.active{
+    left: 0;
+    transition: .5s;
+}
+.main-image{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+}
+body{
+  margin: 10px 80px;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color:rgba(255, 255, 255, 0.219)
+}
+
+nav  {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+
+ 
+  
+}
+ header .navbar a{
+  font-size: 20PX;
+  margin-left: 50px;
+  text-align: left;
+  
+}
+
+
+
+nav h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 40px;
+  color: #6c9ea5;
+  text-decoration: underline;
+  margin-top: 50px;
+  text-align: left;
+}
+nav .onglets{
+  margin-top: 35px;
+}
+p.description{
+  font-size: 25px;
+  color: #e79595;
+
+}
+h1{
+  text-decoration: underline;
+  color: #e79595;
+  font-size: 15px;
+}
+
+nav .onglets a{
+  text-decoration: none;
+  color:#7f7e7e;
+  margin-right: 10px;
+  font-size: 30px;
+  justify-content: space-between;
+
+  
+}
+
+.articles{
+  margin-top: 100px;
+}
+.articles .article{
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom: 30px;
+}
+.articles .article .left img{
+  height: 300px;
+  width: 500px;
+}
+.articles .article .right {
+  margin-left: 40px;
+  max-width: 50%;
+}
+.articles .article .right p.date{
+  color: #7f7e7e;
+}
+.articles .article .right p.description{
+  color: #2d2d2d;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  color: #494949;
+}
+footer h2{
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+  margin-top: 20px;
+}
+footer .social-media{
+  display:flex;
+}
+footer .social-media p{
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 640px){
+  body{
+    margin: 10px 20px;
+  }
+  nav .onglets{
+    margin-top: -10px;
+  }
+  .articles .article .left img{
+    height: 100%;
+    width:100%;
+  }
+  .articles .article .right{
+    margin: 0px;
+    max-width: 100%;
+  }
+  footer .social-media{
+    margin-top: -20px;
+  }
+
+
+  
+
+
+
+
+
+
+  /*css de page contacte*/
+  
